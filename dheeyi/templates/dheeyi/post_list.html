@@ -5,7 +5,7 @@
     <title>plantillaTest</title>
 </head>
 <body>
-<h1>first template !!!</h1>
+<h3>list of Post !!!</h3>
 {% for post in posts %}
     <div>
         <p>published: {{ post.published_date }}</p>
@@ -13,5 +13,6 @@
         <p>{{ post.text|linebreaks }}</p>
     </div>
 {% endfor %}
+<h3>End list of Post !!!</h3>
 </body>
 </html>
